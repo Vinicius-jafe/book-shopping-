@@ -34,9 +34,12 @@ main {
 }
 
 .item-carrinho img {
-    max-width: 100px;
+    max-width: 350px;
     margin-right: 20px;
 }
+
+
+
 
 .detalhes-produto h2 {
     margin: 0;

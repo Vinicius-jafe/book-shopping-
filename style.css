@@ -10,6 +10,8 @@ header{
 }
 body{
     background-color: #DEF2F1;
+    margin: 0;
+    padding: 0;
 }
 .container-logo{
     display: flex;
@@ -83,23 +85,28 @@ h3{
     color: black;
     text-transform: uppercase;
     border: #024959;
-    
     border-radius: 15px;
 }
 
 .categoria a:hover{
-    background-color: text-decoration: gba(135, 206, 250, 0.3);;
+    background-color: rgb(135, 206, 250, 0.3)
+    
 }
 
 
 h6{
     font-size: 25px;
 }
-footer{
-    
-    color: rgb(0, 140, 255);
-    
+footer{ 
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+
 }
+
 .back{
     text-align: center;
 }
