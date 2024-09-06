@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DEF2F1;
+}
+
+
+header {
+    width: 100%;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #024959;
+    color: #F2E3D5;
+    padding: 19px 0;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo-text h1 {
+    font-size: 24px;
+}
+
+.busca {
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: rgba(135, 206, 250, 0.3);
+}
+
+
+nav {
+
+    padding: 10px 0;
+    text-align: center;
+}
+
+.Prateleira {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 29px;
+    margin-bottom: 10px;
+    color: #024959;
+}
+
+.categoria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.categoria a {
+    background-color: #024959;
+    color: #DEF2F1;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 13px;
+    transition: background-color 0.3s;
+}
+
+.categoria a:hover {
+    background-color: rgba(54, 83, 82, 0.4);
+}
+
+
+.produto-detalhes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produto-imagem img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.produto-info {
+    max-width: 500px;
+    margin-left: 20px;
+}
+
+.produto-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #024959;
+}
+
+.produto-info p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.produto-info h3 {
+    color: green;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.produto-info button.comprar {
+    background-color: #024959;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.produto-info button.comprar:hover {
+    background-color: #033742;
+}
+
+
+.mais-vendidos {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mais-vendidos h5 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #024959;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produtos a {
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.produtos a:hover {
+    transform: scale(1.05);
+}
+
+.produtos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.price {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.price h6 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #024959;
+}
+
+.price span {
+    font-size: 16px;
+    color: green;
+}
+
+/* Retorno ao Topo */
+.retorno-topo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.retorno-topo a {
+    text-decoration: none;
+    color: #024959;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.retorno-topo a:hover {
+    color: green;
+}
+
+/* Rodapé */
+footer {
+    background-color: #024959;
+    color: #DEF2F1;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape p, .rodape h4 {
+    margin-bottom: 10px;
+}
+
+.rodape ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+
+.rodape ul li {
+    margin: 5px 0;
+}
+
+.rodape a {
+    color: #DEF2F1;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+ 
+
