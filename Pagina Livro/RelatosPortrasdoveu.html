@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,17 @@
     <link rel="stylesheet" href="compra.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
 
     <!-- Cabeçalho -->
     <header>
         <div class="container-logo">
-            <div class="logo-text"><h1>book shopping 📚</h1></div>
+            <a href="../index.html">
+                <div class="logo-text">
+                    <h1>book shopping 📚</h1>
+                </div>
+            </a>
             <label for="search-icon">🔍</label>
             <input id="search-icon" class="busca" type="search" placeholder="Buscar...">
         </div>
@@ -27,14 +33,16 @@
         </div>
     </header>
 
-   
+
     <nav>
-        <div><h2 class="Prateleira">Prateleira</h2></div>
+        <div>
+            <h2 class="Prateleira">Prateleira</h2>
+        </div>
         <div class="categoria">
-            <a href="../livros/aventura.html">Aventura</a>
-            <a href="../livros/romance.html">Romance</a>
-            <a href="../livros/infantil.html">Infantil</a>
-            <a href="../livros/ficcao.html">Ficção</a>
+            <a href="../Pagina Categorias/Aventura.html" rel="next">aventura</a>
+            <a href="../Pagina Categorias/romance.html" rel="next">romance</a>
+            <a href="../Pagina Categorias/infantil.html" rel="next">infantil</a>
+            <a href="../Pagina Categorias/ficçao.html" rel="next">ficção</a>
         </div>
     </nav>
 
@@ -49,7 +57,8 @@
             <h2>Relatos por trás do véu</h2>
             <p><strong>Autor:</strong> Luther Alt</p>
             <p><strong>Gênero:</strong> Ficção</p>
-            <p><strong>Descrição:</strong> Um emocionante suspense sobre segredos obscuros e revelações surpreendentes. Acompanhe a história de um detetive em busca de respostas em meio a uma trama cheia de reviravoltas.</p>
+            <p><strong>Descrição:</strong> Um emocionante suspense sobre segredos obscuros e revelações surpreendentes.
+                Acompanhe a história de um detetive em busca de respostas em meio a uma trama cheia de reviravoltas.</p>
             <h3>R$59,99</h3>
             <button class="comprar" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho 🛒</button>
         </div>
@@ -61,28 +70,28 @@
     <div class="mais-vendidos">
         <h5>Outros Mais Vendidos</h5>
         <div class="produtos">
-            <a href="#">
+            <a href="Omeninodogarimpo.html">
                 <img src="../PNG/Omeninogarimpeiro.jpg" alt="Capa do livro O Menino Garimpeiro">
                 <div class="price">
                     <h6>O Menino Garimpeiro</h6>
                     <span>R$59,99</span>
                 </div>
             </a>
-            <a href="#">
+            <a href="Rainhaprometida.html">
                 <img src="../PNG/Rainhaprometida.jpg" alt="Capa do livro Rainha Prometida">
                 <div class="price">
                     <h6>Rainha Prometida</h6>
                     <span>R$59,99</span>
                 </div>
             </a>
-            <a href="#">
+            <a href="apenasumestalo.html">
                 <img src="../PNG/Apenasumestalo.jpg" alt="Capa do livro Apenas um Estalo">
                 <div class="price">
                     <h6>Apenas um Estalo</h6>
                     <span>R$59,99</span>
                 </div>
             </a>
-            <a href="#">
+            <a href="Nao confie.html">
                 <img src="../PNG/Nãoconfie.jpg" alt="Capa do livro NÃO CONFIE">
                 <div class="price">
                     <h6>NÃO CONFIE</h6>
@@ -99,18 +108,25 @@
 
     <!-- Rodapé -->
     <footer>
-        <hr>
-        <div class="rodape">
-            <p>Suporte via email 📩: <code><a href="mailto:suporte.bookshop@hotmail.com">suporte.bookshop@hotmail.com</a></code></p>
-            <p>Contato ☎: (31) 9 9999-9999</p>
-            <h4>Página desenvolvida por:</h4>
-            <ul>
-                <li>Dyego Rezende</li>
-                <li>João Victor</li>
-                <li>Yago Julio</li>
-                <li>Vinicius Jafe</li>
-            </ul>
+
+        <div class="rodape-container">
+            <div class="rodape-col">
+                <h4>Suporte</h4>
+                <p>Email: 📩 <a href="mailto:suporte.bookshop@hotmail.com">suporte.bookshop@hotmail.com</a></p>
+                <p>Telefone: ☎ (31) 9 9999-9999</p>
+            </div>
+
+            <div class="rodape-col">
+                <h4>Desenvolvedores</h4>
+                <ul>
+                    <li>Dyego Rezende</li>
+                    <li>João Victor</li>
+                    <li>Yago Julio</li>
+                    <li>Vinicius Jafe</li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
+
 </html>

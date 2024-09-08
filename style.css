@@ -1,9 +1,10 @@
-*{
+* {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 header {
     width: 100%;
     align-items: center;
@@ -14,82 +15,107 @@ header {
     padding: 19px 0;
 }
 
-body{
-    background-color:  #DEF2F1;
+body {
+    background-color: #DEF2F1;
 }
-        /* Cabeçalho */
-.container-logo{
+
+/* Cabeçalho */
+header {
+    width: 100%;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #024959;
+    color: #F2E3D5;
+    padding: 19px 0;
+}
+
+.container-logo {
     display: flex;
     align-items: center;
-}
-.logo-text{
     margin-left: 20px;
-    margin: 20px;
 }
-.busca{
-    font-size: 20px;
+
+.logo-text h1 {
+    font-size: 24px;
+}
+
+.busca {
+    font-size: 16px;
     border-radius: 12px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
 }
-.menu li{
-    display: inline-block;
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu li {
     margin: 0 10px;
 }
-.menu li a{
-    font-size: 20px;
+
+.menu li a {
+    font-size: 16px;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    padding: 10px 25px;
+    padding: 10px 15px;
     border-radius: 15px;
+    transition: background-color 0.3s;
 }
-.menu li a:hover{
+
+.menu li a:hover {
     background-color: rgba(135, 206, 250, 0.3);
-    transition: 0.3s all;
 }
-        /* Fim do cabecalho */
-h2{
+
+/* Fim do cabecalho */
+h2 {
     font-size: 25px;
     text-align: center;
 }
-h3{
-text-align: center;
+
+h3 {
+    text-align: center;
 }
-        
-h5{
+
+h5 {
     font-size: 30px;
     margin-top: -50px;
     text-align: center;
 }
-       
-h6{
+
+h6 {
     font-size: 20px;
     margin-top: 30px;
     text-align: center;
     color: #024959;
 }
-        /* Preço dos livros */
+
+/* Preço dos livros */
 
 .header-container {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-
-.header-container h5,
-.header-container h6,
-.header-container h7 {
     display: block;
     margin: 0;
 }
 
+
+
+
 .header-container h7 {
     display: block;
-    font-size: 20PX; 
-    color: #2e2c2c; 
+    font-size: 20PX;
+    color: #2e2c2c;
 }
 
-     /* Fim Preço dos livros */
+/* Fim Preço dos livros */
 
 .image {
     display: flex;
@@ -98,7 +124,7 @@ h6{
     gap: 10px;
     margin-top: 5px;
     padding: 25px;
-    
+
 }
 
 .image a {
@@ -107,11 +133,12 @@ h6{
     margin: 20px;
 }
 
-.image a:hover{
+.image a:hover {
     transform: scale(1.1);
 }
+
 .image img {
-    max-width: 200px; 
+    max-width: 200px;
     border-radius: 10px;
 }
 
@@ -130,123 +157,77 @@ h6{
     color: #2e2c2c;
 }
 
-        /* Navegacão categorias */
-.categoria{
-    font-size: 23x;
-    flex-direction: column;
-    justify-content: space-evenly;
+/* Navegacão categorias */
+nav {
+
+    padding: 10px 0;
     text-align: center;
-    margin: 20px;
 }
-.categoria a{
-    flex-direction: column;
-    margin: 10px;
-    color: #DEF2F1;
-    justify-content: space-evenly;
-    display: inline-block;
-    text-transform: uppercase;
-    font-family: Georgia, 'Times New Roman', Times, sans-serif;
-    text-align: center;
-    font-size: 20px;
-    text-decoration: none;
-}
-.categoria a:hover{
-    background-color: rgba(54, 83, 82, 0.4);
-    transition: 0.3s all;
-}
-.tito-libory{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+.Prateleira {
     font-size: 29px;
-    margin: 29px;
-    text-align: center;
+    margin-bottom: 10px;
+    color: #024959;
+}
 
+.categoria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 10px 0;
 }
-nav{
-    justify-content: space-evenly;
-}
-nav .categoria{
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
+
+.categoria a {
+    background-color: #024959;
+    color: #DEF2F1;
     text-transform: uppercase;
-    padding: 30px 25px;
-    border-radius: 15px;
-    justify-content: space-evenly;
-}
-nav .categoria a{
-    display: inline-block;
-    margin: 200px, 30px;
-    color: #DEF2F1;
-    border-radius: 13px;
-    background-color: #024959;
-    padding: 20px 10px;
-    justify-content: space-evenly;
-}
-        /* Fim categorias */
-
-        /* Botao voltar */
-.voltar{
-    display: flex;
-    padding: 19px, 0;
-}
-        /* roda pé */
-h6{
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-}
-h6 a{
+    font-size: 18px;
     text-decoration: none;
-    background-color: #024959;
-    width: 10%; 
-    padding: 5px;
-    border-radius: 10px;
-    color:#DEF2F1 ;
-    margin: 20PX 0;
+    padding: 10px 20px;
+    border-radius: 13px;
+    transition: background-color 0.3s;
 }
-.rodape{
+
+.categoria a:hover {
+    background-color: rgba(54, 83, 82, 0.4);
+}
+
+
+
+/* Botao voltar */
+.retorno-topo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.retorno-topo a {
+    text-decoration: none;
+    color: #024959;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.retorno-topo a:hover {
+    color: green;
+}
+
+
+
+/* Rodapé */
+footer {
     background-color: #024959;
     color: #DEF2F1;
+    padding: 20px 0;
     text-align: center;
 }
-        /*  final do roda pé  */
-.tito-suport{
-    width: 100%;
-    display: flex;
-    font-size: 100px;
-    text-align: center;
-    padding: 190px, 220px;
-}
-.roda h6 a{
-    text-decoration: none;
-    color:#DEF2F1 ;
-    
 
+footer .rodape-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.ask a{
-    
-    font-size: 500px;
-    border-radius: 13px;
-    padding: 190px, 220px;
-   
-}
-.container-suport ask a input{
-    height: 20vh;
-}
-.tito-suport h5{
-    display: flex;
-    background-color: #3798ad;
-    color: #F2E3D5;
-    padding: 8px 25px;
-    border-radius: 15px;   
-}
-.container-suport{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 20vh;
-    max-width: 450px;
-    margin: 150px, auto;
-    border-radius: 8px;
-}

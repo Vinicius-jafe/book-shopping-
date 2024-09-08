@@ -98,12 +98,17 @@ main {
 }
 
 footer {
-    background-color: #003D4C; 
-    padding: 10px;
+    background-color: #024959;
+    color: #DEF2F1;
+    padding: 20px 0;
     text-align: center;
-    color: #DEF2F1; 
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    height: 20%;
+}
+
+footer .rodape-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
