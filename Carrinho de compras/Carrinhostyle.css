@@ -98,6 +98,7 @@ main {
 }
 
 footer {
+<<<<<<< HEAD
     background-color: #024959;
     color: #DEF2F1;
     padding: 20px 0;
@@ -112,3 +113,20 @@ footer .rodape-container {
     max-width: 1200px;
     margin: 0 auto;
 }
+=======
+    background-color: #003D4C; 
+    padding: 10px;
+    text-align: center;
+    color: #DEF2F1; 
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 20%;
+}
+h6{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: #024959;
+}
+>>>>>>> origin/dyego

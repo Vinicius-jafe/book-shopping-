@@ -1,0 +1,21 @@
+.descricao{
+    text-align: left;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: #F2E3D5;
+}
+.descri{
+    margin-top: 25px ;
+    font-size: 21px;
+    text-align: left;
+}
+.sobre{
+    margin-left: 100px ;
+    margin-right: 100px;
+}
