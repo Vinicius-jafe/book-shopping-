@@ -3,13 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
-=======
-a{
-    text-decoration: none;
-    color: #F2E3D5;
-}
->>>>>>> origin/dyego
 
 body {
     font-family: Arial, sans-serif;
@@ -184,7 +177,6 @@ nav {
 footer {
     background-color: #024959;
     color: #DEF2F1;
-<<<<<<< HEAD
     padding: 20px 0;
     text-align: center;
 }
@@ -196,33 +188,6 @@ footer .rodape-container {
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
-=======
-    padding: 20px;
-    text-align: center;
-}
-
-.rodape p, .rodape h4 {
-    margin-bottom: 10px;
-}
-
-.rodape ul {
-    list-style: none;
-    display: inline-block;
-    text-align: left;
-}
-
-.rodape ul li {
-    margin: 5px 0;
-}
-
-.rodape a {
-    color: #DEF2F1;
-    text-decoration: none;
-}
-
-.rodape a:hover {
-    text-decoration: underline;
->>>>>>> origin/dyego
 }
 
  
