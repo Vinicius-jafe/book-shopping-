@@ -1,26 +1,31 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #DEF2F1; 
-    color: #17252A; 
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body {
+    background-color: #DEF2F1;
+    color: #17252A;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 header {
-    background-color: #003D4C; 
+    width: 100%;
+    background-color: #024959;
+    color: #F2E3D5;
     padding: 20px;
     text-align: center;
-    color: #DEF2F1; 
 }
 
 h1 {
-    margin: 0;
+    font-size: 2rem;
 }
 
 main {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
 }
 
 .item-carrinho {
@@ -34,21 +39,19 @@ main {
 }
 
 .item-carrinho img {
-    max-width: 350px;
+    max-width: 150px;
     margin-right: 20px;
+    border-radius: 8px;
 }
 
-
-
-
 .detalhes-produto h2 {
-    margin: 0;
-    color: #003D4C; 
+    margin-bottom: 10px;
+    color: #003D4C;
 }
 
 .detalhes-produto p {
     margin: 5px 0;
-    color: #2B7A78; 
+    color: #2B7A78;
 }
 
 .quantidade {
@@ -59,7 +62,7 @@ main {
     width: 50px;
     padding: 5px;
     border-radius: 4px;
-    border: 1px solid #2B7A78; 
+    border: 1px solid #2B7A78;
 }
 
 .remover {
@@ -69,32 +72,35 @@ main {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .remover:hover {
-    background-color: #2B7A78; 
+    background-color: #2B7A78;
 }
 
 .compra-total {
     text-align: right;
+    margin-top: 20px;
 }
 
 .compra-total h3 {
-    margin: 0 0 20px 0;
-    color: #003D4C; 
+    margin-bottom: 20px;
+    color: #003D4C;
 }
 
 .finalizar {
-    background-color: #003D4C; 
+    background-color: #003D4C;
     color: #FFFFFF;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .finalizar:hover {
-    background-color: #2B7A78; 
+    background-color: #2B7A78;
 }
 
 footer {

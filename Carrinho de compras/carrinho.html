@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrinho de Compras - book shopping</title>
+    <title>Carrinho de Compras - Book Shopping</title>
     <link rel="stylesheet" href="Carrinhostyle.css">
 </head>
 
@@ -13,29 +13,28 @@
         <h1>Carrinho de Compras</h1>
     </header>
 
-
-    <div class="item-carrinho">
-        <img src="../PNG\Relatosportrasdovéu.jpg" alt="Capa do Livro">
-        <div class="detalhes-produto">
-            <h2>Título do Livro</h2>
-            <p>Autor: Autor Exemplo</p>
-            <p>Preço: R$ 49,90</p>
-            <div class="quantidade">
-                <label for="quantidade">Quantidade:</label>
-                <input type="number" id="quantidade" name="quantidade" value="1" min="1">
+    <main>
+        <div class="item-carrinho">
+            <img src="../PNG/Relatosportrasdovéu.jpg" alt="Capa do Livro">
+            <div class="detalhes-produto">
+                <h2>Relatos por trás do véu</h2>
+                <p>Autor: Autor Exemplo</p>
+                <p>Preço: R$ 49,90</p>
+                <div class="quantidade">
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" id="quantidade" name="quantidade" value="1" min="1">
+                </div>
+                <button class="remover">Remover</button>
             </div>
-            <button class="remover">Remover</button>
         </div>
-    </div>
 
-    <div class="compra-total">
-        <h3>Total: R$ 49,90</h3>
-        <button class="finalizar">Finalizar Compra</button>
-    </div>
-
+        <div class="compra-total">
+            <h3>Total: R$ 49,90</h3>
+            <button class="finalizar">Finalizar Compra</button>
+        </div>
+    </main>
 
     <footer>
-
         <div class="rodape-container">
             <div class="rodape-col">
                 <h4>Suporte</h4>
