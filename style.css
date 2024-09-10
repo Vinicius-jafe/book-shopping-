@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 header {
     width: 100%;
     align-items: center;
@@ -124,7 +123,6 @@ h6 {
     gap: 10px;
     margin-top: 5px;
     padding: 25px;
-
 }
 
 .image a {
