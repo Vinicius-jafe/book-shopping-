@@ -107,3 +107,9 @@ footer {
     bottom: 0;
     height: 20%;
 }
+h6{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: #024959;
+}
